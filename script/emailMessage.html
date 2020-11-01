@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+  </head>
+  <body>
+    <h2>Thank you for your order!</h2>
+    <p>
+    This is an example email with the variable info of the message that is 
+    automatically sent to the email address submitted in Google Forms:
+    </p>
+    <ul>
+      <li>name: <?=name?></li>
+      <li>address: <?=address?></li>
+      <li>number of badges: </?=badges?></li>
+      <li>sum: <strong><?=sum?> €</strong></li>
+      <li>reference number: <?=refNo?></li>
+    </ul>
+    <p>
+    If you're interested in the full contents of the message (or the badges themselves) please contact me personally.
+    </p>
+    <p>
+    Best regards,<br>
+    Venla Kuosa
+    </p>
+  </body>
+</html>
